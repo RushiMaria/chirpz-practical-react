@@ -1,0 +1,163 @@
+.modal-popup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 35px;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  background: #0e1931;
+  width: 500px;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.modal-heading {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.modal-heading h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+.modal-heading h3 span {
+  color: #ffb501;
+  margin-left: 5px;
+}
+
+.modal-background {
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100vh;
+}
+
+.input-group {
+  margin-bottom: 40px;
+}
+
+.input-group label {
+  display: block;
+  color: rgba(156, 163, 175, 1);
+  margin-bottom: 4px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+.input-group input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-top: 10px;
+  color: rgba(243, 244, 246, 1);
+}
+
+.tags {
+  position: relative;
+}
+
+.tags button {
+  position: absolute;
+  right: 40%;
+  top: 70%;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  background-color: #0e1931;
+}
+
+.bottom-tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+
+.bottom-tags span {
+  padding: 7px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #28395a;
+  margin:5px;
+}
+
+.modal-bottom-button-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+
+.modal-create-btn {
+  display: inline-flex;
+  padding: 6px 19px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #e88607;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  outline: none;
+  border: none;
+  margin-right: 20px;
+}
+
+.modal-cancel-btn {
+  display: inline-flex;
+  padding: 6px 19px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #2b4275;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  outline: none;
+  border: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .modal-popup {
+    position: absolute;
+    padding: 20px;
+    max-width: 370px;
+    height: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .modal-bottom-button-group {
+    margin-top: 20px;
+  }
+}

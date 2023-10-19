@@ -1,0 +1,123 @@
+.header-container-small {
+  padding-top: 20px;
+  background-color: #091224;
+  color: #ffffff;
+}
+
+.header-container-small .upper-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.header-container-small .logo-cover {
+  display: flex;
+  gap: 8px;
+  width: 38px;
+  height: 34px;
+}
+.header-container-small .logo-cover img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header-container-small .logo-text {
+  color: #fff;
+  font-size: 23.61px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.59px;
+}
+
+.header-container-small .profile-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-container-small .lower-div {
+  max-width: 700px;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #28395a;
+  padding: 30px;
+}
+
+.header-container-small .lower-div .d-3 button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: #e88607;
+  color: #fff;
+  border: none;
+  margin: 0 10px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #091224;
+  color: #ffffff;
+  padding:0 10px;
+}
+
+.header-container .logo-cover {
+  width: 17%;
+  display: flex;
+  gap: 8px;
+}
+.header-container .logo-cover img {
+  width: 38px;
+  height: 34px;
+  object-fit: cover;
+}
+
+.header-container .logo-text {
+  color: #fff;
+  font-size: 23.61px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.59px;
+}
+
+.header-container .lower-div {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #28395a;
+  padding: 30px;
+}
+
+.header-container .lower-div .d-3 button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: #e88607;
+  color: #fff;
+  border: none;
+  margin: 0 10px;
+}
+
+.header-container .profile-cover {
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+@media only screen and (min-width: 1150px) {
+  .header-container-small {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1149px) {
+  .header-container {
+    display: none;
+  }
+}
